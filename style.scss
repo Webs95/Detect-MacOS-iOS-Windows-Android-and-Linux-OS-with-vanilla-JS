@@ -1,0 +1,24 @@
+h1, h2 {
+  font-family: Lato;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 100vw;
+	height: 100vh;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	background: linear-gradient(-45deg, blue, lightpink, yellow);
+
+	.os {
+		color: light;
+	}
+}
