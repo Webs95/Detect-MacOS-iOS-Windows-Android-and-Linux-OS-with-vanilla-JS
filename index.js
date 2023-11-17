@@ -1,7 +1,6 @@
 import './style.scss';
 
 const userOs = document.querySelector('.os');
-const platform = window.navigator.platform;
 const userAgent = window.navigator.userAgent;
 
 const osList = [
